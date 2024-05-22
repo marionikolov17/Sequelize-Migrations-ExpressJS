@@ -7,3 +7,7 @@ In order to create database you must run: <br />
 npm run create-db
 ```
 **Note: you must have 'MySQL Workbench installed and setup**
+
+
+### 2. Run migrations
+After successfully creating database you must run the current migrations in order to get all the tables and fields for the current models created.

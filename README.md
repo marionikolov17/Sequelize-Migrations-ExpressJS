@@ -26,3 +26,5 @@ When you want to create a new model(table with fields) on the database you must 
 ```
 npx sequelize-cli model:generate --name 'ModelName' --attributes name:string,id:number
 ```
+*When running this command don't focus on the '--attributes', just add some attributes in order for the command to be successful and later on
+this attributes will be edited manually from us.*

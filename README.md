@@ -13,7 +13,8 @@ npm run create-db
 ```
 **Note: you must have 'MySQL Workbench installed and setup**
 
-## 2. Initialize Sequelize
+## 2. Initialize Sequelize 
+**NOTE: This step is to show you how you can create your own sequelize configuration. You can skip this, because it will be already done.** <br />
 First, you must have the '.sequelizerc' file in your project folder, and then you must run this command: <br />
 ```
 npx sequelize-cli init

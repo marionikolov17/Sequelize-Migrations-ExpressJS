@@ -22,3 +22,7 @@ npm run migrate
 ```
 ### How to create a new model
 When you want to create a new model(table with fields) on the database you must do the following operations: <br />
+1. You must execude the following command
+```
+npx sequelize-cli model:generate --name 'ModelName' --attributes name:string,id:number
+```

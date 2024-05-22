@@ -75,9 +75,9 @@ User.init({
     defaultValue: 1
   },
   date_created: {
-    type: DataTypes.DATE,
+    type: DataTypes.DATEONLY,
     allowNull: false,
-    defaultValue: Date.now()
+    defaultValue: DataTypes.NOW
   }
 }, {
   tableName: "athleans-users",

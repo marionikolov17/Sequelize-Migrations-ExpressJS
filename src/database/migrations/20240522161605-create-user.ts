@@ -60,9 +60,9 @@ const functions = {
         defaultValue: 1
       },
       date_created: {
-        type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
         allowNull: false,
-        defaultValue: Date.now()
+        defaultValue: Sequelize.NOW
       },
       createdAt: {
         allowNull: false,

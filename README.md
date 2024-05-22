@@ -20,3 +20,5 @@ The only thing you need is to run this command:
 ```
 npm run migrate
 ```
+### How to create a new model
+When you want to create a new model(table with fields) on the database you must do the following operations: <br />

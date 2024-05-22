@@ -1,5 +1,7 @@
 <h1>Sequelize ORM flow</h1>
 
+For now this is a demo project, showcasing how we will work with our database when building the backend.
+
 ## 1. Create database
 **Before creating database, make sure you go in your config file and change the parameters that match your workbench configurations!** <br />
 In order to create database you must run: <br />

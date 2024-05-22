@@ -35,3 +35,5 @@ npx sequelize-cli model:generate --name 'ModelName' --attributes name:string,id:
 ```
 *When running this command don't focus on the '--attributes', just add some attributes in order for the command to be successful and later on
 this attributes will be edited manually from us.* <br />
+You will get two **.js** files. One in the 'migrations' folder and one in the 'models' folder. You must edit the files to **.ts** files and
+copy the structure I have written in the previous models and migrations, becuase otherwise it will throw errors!

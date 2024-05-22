@@ -10,4 +10,8 @@ npm run create-db
 
 
 ### 2. Run migrations
-After successfully creating database you must run the current migrations in order to get all the tables and fields for the current models created.
+After successfully creating database you must run the current migrations in order to get all the tables and fields for the current models created. <br />
+The only thing you need is to run this command:
+```
+npm run migrate
+```

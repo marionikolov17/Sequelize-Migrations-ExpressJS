@@ -1,1 +1,1 @@
-Sequelize ORM flow
+**Sequelize ORM flow**

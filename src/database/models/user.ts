@@ -80,7 +80,7 @@ User.init({
     defaultValue: DataTypes.NOW
   }
 }, {
-  tableName: "athleans-users",
+  tableName: "users",
   sequelize: connection
 });
 

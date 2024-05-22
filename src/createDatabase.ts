@@ -9,7 +9,7 @@ async function createDatabase() {
         password: configs.DB_PASSWORD
     });
 
-    await connection.query(`CREATE DATABASE IF NOT EXISTS ${configs.DB_NAME}`);
+    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${configs.DB_NAME}\`;`);
     console.log(`Database ${configs.DB_NAME} created or already exsits`);
     await connection.end();
 }

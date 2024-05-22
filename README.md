@@ -13,8 +13,14 @@ npm run create-db
 ```
 **Note: you must have 'MySQL Workbench installed and setup**
 
+## 2. Initialize Sequelize
+First, you must have the '.sequelizerc' file in your project folder, and then you must run this command: <br />
+```
+npx sequelize-cli init
+```
+This will create a 'database' folder in your 'src' folder. In this 'database' folder you will store all the data access logic - models and migrations.
 
-## 2. Run migrations
+## 3. Run migrations
 After successfully creating database you must run the current migrations in order to get all the tables and fields for the current models created. <br />
 The only thing you need is to run this command:
 ```
@@ -27,4 +33,4 @@ When you want to create a new model(table with fields) on the database you must 
 npx sequelize-cli model:generate --name 'ModelName' --attributes name:string,id:number
 ```
 *When running this command don't focus on the '--attributes', just add some attributes in order for the command to be successful and later on
-this attributes will be edited manually from us.*
+this attributes will be edited manually from us.* <br />

@@ -1,3 +1,4 @@
+require("ts-node/register")
 import * as configs from "./../config/db-config";
 
 module.exports = {

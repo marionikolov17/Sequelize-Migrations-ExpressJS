@@ -1,5 +1,5 @@
 require("ts-node/register")
-import * as configs from "./../config/db-config";
+const configs = require("./../config/db-config");
 
 module.exports = {
   username: configs.DB_USERNAME,

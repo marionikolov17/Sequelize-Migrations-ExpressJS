@@ -1,7 +1,9 @@
 <h1>Sequelize ORM flow</h1>
 
 For now this is a demo project, showcasing how we will work with our database when building the backend.
-It is optional to inspect this demo and learn how sequelize models and migrations work.
+It is optional to inspect this demo and learn how sequelize models and migrations work. This documentation will be updated when I finish
+Back-End Best Practises documentations, because we must think about how our configuration files will work on our machines, without affecting the project configs
+on github. So just learn how to work with models and migrations for now.
 
 ## 1. Create database
 **Before creating database, make sure you go in your config file and change the parameters that match your workbench configurations!** <br />

@@ -1,1 +1,10 @@
+import * as configs from "./../config/db-config";
 
+module.exports = {
+  username: configs.DB_USERNAME,
+  password: configs.DB_PASSWORD,
+  database: configs.DB_NAME,
+  host: configs.DB_HOST,
+  dialect: "mysql",
+  port: 3306
+}
